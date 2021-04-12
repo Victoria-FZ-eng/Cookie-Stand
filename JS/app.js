@@ -24,8 +24,10 @@ let table = document.createElement('table');
 container.appendChild(table);
 
 let row1 = function(){
+  let thead = document.createElement('thead');
+  table.appendChild(thead);
   let tablerow = document.createElement('tr');
-  table.appendChild(tablerow);
+  thead.appendChild(tablerow);
   let tablehead = document.createElement('th');
   tablerow.appendChild(tablehead);
   tablehead.textContent = 'Store\'s Location';
@@ -43,7 +45,8 @@ let row1 = function(){
 
 
 
-
+let tbody = document.createElement('tbody');
+table.appendChild(tbody);
 
 
 function StoreLocation(location, minCustomer, maxCustomer, avgCoockieCustomer){
@@ -73,7 +76,7 @@ StoreLocation.prototype.getCookiePerHour = function(){
 StoreLocation.prototype.render = function(){
 
   let tablerowi = document.createElement('tr');
-  table.appendChild(tablerowi);
+  tbody.appendChild(tablerowi);
   let tabledatai = document.createElement('th');
   tablerowi.appendChild(tabledatai);
   tabledatai.textContent= this.location;
@@ -96,15 +99,17 @@ let location3 = new StoreLocation ('Dubai', 11, 38, 3.7, []);
 let location4 = new StoreLocation ('Paris', 20, 38, 2.3, []);
 let location5 = new StoreLocation ('Lima', 2, 16, 4.6, []);
 
+for (let i = 0 ; i < objectsLocation.length ; i++){
+  objectsLocation[i].getCookiePerHour();
+  objectsLocation[i].render();
+}
+
 
 let lastrow = function (){
-  for (let i = 0 ; i < objectsLocation.length ; i++){
-    objectsLocation[i].getCookiePerHour();
-    objectsLocation[i].render();
-  }
-
+  let tablefoot = document.createElement('tfoot');
+  table.appendChild(tablefoot);
   let tablerowf = document.createElement('tr');
-  table.appendChild(tablerowf);
+  tablefoot.appendChild(tablerowf);
   let tabledataf = document.createElement('th');
   tablerowf.appendChild(tabledataf);
   tabledataf.textContent = 'Total';
