@@ -93,11 +93,11 @@ StoreLocation.prototype.render = function(){
 
 
 
-let location1 = new StoreLocation ('Seattle', 23, 65, 6.3, []);
-let location2 = new StoreLocation ('Tokyo', 3, 24, 1.2, []);
-let location3 = new StoreLocation ('Dubai', 11, 38, 3.7, []);
-let location4 = new StoreLocation ('Paris', 20, 38, 2.3, []);
-let location5 = new StoreLocation ('Lima', 2, 16, 4.6, []);
+new StoreLocation ('Seattle', 23, 65, 6.3, []);
+new StoreLocation ('Tokyo', 3, 24, 1.2, []);
+new StoreLocation ('Dubai', 11, 38, 3.7, []);
+new StoreLocation ('Paris', 20, 38, 2.3, []);
+new StoreLocation ('Lima', 2, 16, 4.6, []);
 
 for (let i = 0 ; i < objectsLocation.length ; i++){
   objectsLocation[i].getCookiePerHour();
