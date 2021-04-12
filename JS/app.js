@@ -74,7 +74,7 @@ StoreLocation.prototype.render = function(){
 
   let tablerowi = document.createElement('tr');
   table.appendChild(tablerowi);
-  let tabledatai = document.createElement('td');
+  let tabledatai = document.createElement('th');
   tablerowi.appendChild(tabledatai);
   tabledatai.textContent= this.location;
 
@@ -105,7 +105,7 @@ let lastrow = function (){
 
   let tablerowf = document.createElement('tr');
   table.appendChild(tablerowf);
-  let tabledataf = document.createElement('td');
+  let tabledataf = document.createElement('th');
   tablerowf.appendChild(tabledataf);
   tabledataf.textContent = 'Total';
 
