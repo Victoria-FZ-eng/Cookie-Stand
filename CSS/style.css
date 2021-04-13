@@ -37,6 +37,7 @@ header ul li {
     margin-bottom: 5px;
     padding-left: 10%;
     font-size: 20px;
+    color: #31326f ;
 
 }
 #Locations table, th, td {
@@ -46,6 +47,7 @@ header ul li {
     padding-top: 5px;
     padding-bottom: 5px;
     text-align: center;
+    color: #1a1b3f ;
 }
  #Locations table {
      width: 90%;
@@ -67,7 +69,8 @@ h2 {
 }
 footer {
     color: #31326f;
-    margin: 25px;
+    margin: 30px;
+    margin-top: 60px;
     padding-left: 15%;
 
 }
@@ -75,9 +78,17 @@ footer a {
     color:#31326f;
 }
 #Gallery{
-    border-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 70%;
     height: 500px;
     border: 5px solid cadetblue;
     overflow: scroll;
     background-color: cadetblue;
+}
+main p {
+    color:#31326f;
+    text-align: center;
+    font-size: 27px; 
+    margin : 40px;
 }
