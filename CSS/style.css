@@ -21,11 +21,11 @@ img {
     margin: 0 auto;
     margin-top :33px;
 }
-ul li a{
+header ul li a{
     text-decoration: none;
     color:#1e6f5c ;
 }
- ul li {
+header ul li {
      display: inline-block;
      font-size: 30px;
      padding-right: 10%;
@@ -54,4 +54,30 @@ ul li a{
      font-style: oblique;
      font-size: 17px;
  }
+h2 {
+    margin:15px;
+    color:#31326f;
+    font-size: 40px;
+    text-align: center;
+}
+#Gallery img {
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+footer {
+    color: #31326f;
+    margin: 25px;
+    padding-left: 15%;
 
+}
+footer a {
+    color:#31326f;
+}
+#Gallery{
+    border-width: 100%;
+    height: 500px;
+    border: 5px solid cadetblue;
+    overflow: scroll;
+    background-color: cadetblue;
+}
