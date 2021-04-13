@@ -85,10 +85,19 @@ footer a {
     border: 5px solid cadetblue;
     overflow: scroll;
     background-color: cadetblue;
+    margin-bottom: 40px;
 }
 main p {
     color:#31326f;
     text-align: center;
     font-size: 27px; 
     margin : 40px;
+}
+
+main div {
+    
+    width:90%;
+    margin:0 auto;
+    margin-bottom: 20px;
+
 }
