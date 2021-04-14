@@ -18,9 +18,30 @@
 
     </header>
     <main>
+
+        <form id='branch'>
+            <fieldset>
+                <legend>New Branch Form</legend>
+                <label for ="location" >Location : </label>
+                <input type="text" id="location" required>
+                <br>
+                <label for ="minNum">Min # of Customers : </label>
+                <input type="number" id="minNum" required>
+                <br>
+                <label for ="maxNum">Max # of Customers : </label>
+                <input type="number" id="maxNum" required>
+                <br>
+                <label for ="avgCookie">Avg # of Cookies Per Customer : </label>
+                <input type="number" step=".1" id="avgCookie" required>
+                <br>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+        
         <div id='Locations'>
 
         </div>
+        
 
     </main>
     <footer>
