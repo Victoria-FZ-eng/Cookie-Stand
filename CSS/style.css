@@ -58,9 +58,10 @@ header ul li {
  }
 h2 {
     margin:15px;
-    color:#31326f;
+    color:#03506f;
     font-size: 40px;
     text-align: center;
+    font-family: 'Architects Daughter', cursive;
 }
 #Gallery img {
     margin-left:auto;
@@ -78,13 +79,15 @@ footer a {
     color:#31326f;
 }
 #Gallery{
+    width: 70%;
     margin-left: auto;
     margin-right: auto;
-    border-width: 70%;
+    
     height: 500px;
-    border: 5px solid cadetblue;
+    border: 1px solid cadetblue;
+    border-width: 70%;
     overflow: scroll;
-    background-color: cadetblue;
+    background-color: #a0c1b8;
     margin-bottom: 40px;
 }
 main p {
@@ -92,6 +95,7 @@ main p {
     text-align: center;
     font-size: 27px; 
     margin : 40px;
+    font-family: 'Architects Daughter', cursive;
 }
 
 main div {
@@ -101,11 +105,58 @@ main div {
     margin-bottom: 20px;
 
 }
+
+#branch {
+    margin-left: 10%;
+    margin-bottom: 50px;
+    
+}
 #branch fieldset{
+    width: 40%;
+    border: 2px dashed;
     margin:50px;
     margin-bottom: 20px;
     color:#31326f;
     text-align: justify;
+    background-color:#d8ebe4;
 
 
 }
+
+#branch legend{
+    margin: 10%;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#branch label{
+    margin:3%;
+    background-color:#d8ebe4;
+}
+
+#branch input{
+    margin-left: 5%;
+    margin-bottom:10px ;
+
+}
+#Locations h3{
+    font-style: oblique;
+    font-size: 30px;
+}
+#Locations table{
+    border:3px double;
+}
+#Locations table td {
+    background-color:#d8ebe4;
+}
+#Locations table th {
+    background-color:#a2d0c1;
+    padding: 3px;
+}
+.breakline{ 
+    width:80%;
+    border-top: 8px solid #1e6f5c;;
+    border-radius: 7px;
+   
+    }
